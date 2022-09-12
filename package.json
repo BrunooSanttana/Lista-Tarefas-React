@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "",
+    "deploy": "https://brunoosanttana.github.io/Lista-Tarefas-React/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
