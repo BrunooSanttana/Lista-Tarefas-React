@@ -27,12 +27,17 @@ export default function Tarefas({
             tarefa={tarefa}
           />
           <span>
-            <FaEdit className="edit" onClick={(e) => handleEdit(e, index)} />
-            <FaWindowClose
-              onClick={(e) => handleDelete(e, index)}
-              className="delete"
+            <FaEdit className="edit"
+            onClick={(e) => handleEdit(e, index)}
             />
-            <BiCheck onClick={(e) => handleDone(e, index)} className="done" />
+
+            <FaWindowClose className="delete"
+              onClick={(e) => handleDelete(e, index)}
+            />
+
+            <BiCheck className="done"
+            onClick={(e) => handleDone(e, index)}
+            />
           </span>
         </li>
       ))}

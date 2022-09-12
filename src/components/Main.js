@@ -114,6 +114,8 @@ export default class Main extends Component {
           novaTarefa={novaTarefa}
         />
 
+        <p> Digite sua tarefa, clique em <strong> "+" </strong> ou tecle <strong> enter </strong> para adidiona-la a sua lista  </p>
+
         <Tarefas
           tarefas={tarefas}
           concluirTarefas={concluirTarefas}

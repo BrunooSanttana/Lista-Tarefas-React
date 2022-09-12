@@ -7,6 +7,8 @@ import { FaPlus } from "react-icons/fa";
 
 import "./Form.css";
 
+
+
 export default function Form({ handleChange, handleSubmit, novaTarefa }) {
   return (
     <form onSubmit={handleSubmit} action="#" className="form">
